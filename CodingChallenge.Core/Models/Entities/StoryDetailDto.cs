@@ -1,11 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace CodingChallenge.Core.Models
 {
-  public class StoryDetailDto
+    [ExcludeFromCodeCoverage]
+    public class StoryDetailDto
   {
     /// <summary>
     /// story id

@@ -1,0 +1,13 @@
+C:\UI_Challenge\APIServices\CodingChallenge.Core\bin\Debug\net6.0\CodingChallenge_Core.xml
+C:\UI_Challenge\APIServices\CodingChallenge.Core\bin\Debug\net6.0\CodingChallenge.Core.deps.json
+C:\UI_Challenge\APIServices\CodingChallenge.Core\bin\Debug\net6.0\CodingChallenge.Core.dll
+C:\UI_Challenge\APIServices\CodingChallenge.Core\bin\Debug\net6.0\CodingChallenge.Core.pdb
+C:\UI_Challenge\APIServices\CodingChallenge.Core\obj\Debug\net6.0\CodingChallenge.Core.csproj.AssemblyReference.cache
+C:\UI_Challenge\APIServices\CodingChallenge.Core\obj\Debug\net6.0\CodingChallenge.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\UI_Challenge\APIServices\CodingChallenge.Core\obj\Debug\net6.0\CodingChallenge.Core.AssemblyInfoInputs.cache
+C:\UI_Challenge\APIServices\CodingChallenge.Core\obj\Debug\net6.0\CodingChallenge.Core.AssemblyInfo.cs
+C:\UI_Challenge\APIServices\CodingChallenge.Core\obj\Debug\net6.0\CodingChallenge.Core.csproj.CoreCompileInputs.cache
+C:\UI_Challenge\APIServices\CodingChallenge.Core\obj\Debug\net6.0\CodingChallenge.Core.dll
+C:\UI_Challenge\APIServices\CodingChallenge.Core\obj\Debug\net6.0\refint\CodingChallenge.Core.dll
+C:\UI_Challenge\APIServices\CodingChallenge.Core\obj\Debug\net6.0\CodingChallenge.Core.pdb
+C:\UI_Challenge\APIServices\CodingChallenge.Core\obj\Debug\net6.0\ref\CodingChallenge.Core.dll

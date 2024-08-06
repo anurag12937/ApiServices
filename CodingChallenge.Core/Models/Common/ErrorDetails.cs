@@ -1,12 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace CodingChallenge.Core.Models.Common
 {
-  public class ErrorDetails
+    [ExcludeFromCodeCoverage]
+    public class ErrorDetails
   {
     /// <summary>
     /// status code

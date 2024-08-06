@@ -1,4 +1,7 @@
-﻿public class CacheResultModel
+﻿using System.Diagnostics.CodeAnalysis;
+
+[ExcludeFromCodeCoverage]
+public class CacheResultModel
 {
     /// <summary>
     /// 

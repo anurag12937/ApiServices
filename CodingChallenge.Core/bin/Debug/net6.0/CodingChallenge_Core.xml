@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodingChallenge.Core</name>
+    </assembly>
+    <members>
+        <member name="T:CodingChallenge.Core.Builders.IResponseBuilder`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.IResponseBuilder`1.AddHttpStatus(System.Nullable{System.Int32})">
+            <summary>
+            Adds the HTTP status.
+            </summary>
+            <param name="status">The status.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.IResponseBuilder`1.AddMessage(System.String)">
+            <summary>
+            Adds the message.
+            </summary>
+            <param name="message">The message.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.IResponseBuilder`1.AddSuccessData(`0)">
+            <summary>
+            Adds the success data.
+            </summary>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.IResponseBuilder`1.AddError(CodingChallenge.Core.Models.Common.Error)">
+            <summary>
+            Adds the error.
+            </summary>
+            <param name="error">The error.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.IResponseBuilder`1.AddError(System.Object,System.Int32)">
+            <summary>
+            Adds the error.
+            </summary>
+            <param name="error">The error.</param>
+            <param name="code">The code.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.IResponseBuilder`1.AddErrors(System.Collections.Generic.List{CodingChallenge.Core.Models.Common.Error})">
+            <summary>
+            Adds the errors.
+            </summary>
+            <param name="errors">The errors.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.IResponseBuilder`1.Build">
+            <summary>
+            Builds this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CodingChallenge.Core.Builders.IResponseBuilderFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.IResponseBuilderFactory.GetBuilder``1">
+            <summary>
+            Gets the builder.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:CodingChallenge.Core.Builders.Factory.ResponseBuilderFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.Factory.ResponseBuilderFactory.GetBuilder``1">
+            <summary>
+            Gets the builder.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:CodingChallenge.Core.Builders.ResponseBuilder`1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.ResponseBuilder`1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodingChallenge.Core.Builders.ResponseBuilder`1"/> class.
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.ResponseBuilder`1.AddHttpStatus(System.Nullable{System.Int32})">
+            <summary>
+            Adds the status.
+            </summary>
+            <param name="status">The status.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.ResponseBuilder`1.AddMessage(System.String)">
+            <summary>
+            Adds the message.
+            </summary>
+            <param name="message">The message.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.ResponseBuilder`1.AddSuccessData(`0)">
+            <summary>
+            Adds the success data.
+            </summary>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.ResponseBuilder`1.AddError(CodingChallenge.Core.Models.Common.Error)">
+            <summary>
+            Adds the error.
+            </summary>
+            <param name="error">The error.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.ResponseBuilder`1.AddError(System.Object,System.Int32)">
+            <summary>
+            Adds the error.
+            </summary>
+            <param name="error">The error.</param>
+            <param name="code">The code.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.ResponseBuilder`1.AddErrors(System.Collections.Generic.List{CodingChallenge.Core.Models.Common.Error})">
+            <summary>
+            Adds the errors.
+            </summary>
+            <param name="errors">The errors.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Builders.ResponseBuilder`1.Build">
+            <summary>
+            Builds this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Cache.CacheService.RetrieveFromCacheAsync(System.String)">
+            <summary>
+            </summary>
+            <param name="key">The key.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Cache.CacheService.CacheExpired_Callback(System.Object,System.Object,Microsoft.Extensions.Caching.Memory.EvictionReason,System.Object)">
+            <summary>
+            Caches the expired callback.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="value">The value.</param>
+            <param name="reason">The reason.</param>
+            <param name="state">The state.</param>
+        </member>
+        <member name="M:CodingChallenge.Core.Cache.ICacheService.SaveToCacheAsync``1(System.String,``0,System.Nullable{System.Int32})">
+            <summary>
+            Saves to cache asynchronous.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="key">The key.</param>
+            <param name="objectToCache">The object to cache.</param>
+            <param name="expirationTimeLimit">The expiration time limit.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Cache.ICacheService.RetrieveFromCacheAsync(System.String)">
+            <summary>
+            Retrieves from cache asynchronous.
+            </summary>
+            <param name="key">The key.</param>
+            <returns></returns>
+        </member>
+        <member name="T:CodingChallenge.Core.Common.Enum.ResponseStatus">
+            <summary>
+            Response Status
+            </summary>
+        </member>
+        <member name="F:CodingChallenge.Core.Common.Enum.ResponseStatus.OK">
+            <summary>
+            The ok
+            </summary>
+        </member>
+        <member name="F:CodingChallenge.Core.Common.Enum.ResponseStatus.Failed">
+            <summary>
+            The failed
+            </summary>
+        </member>
+        <member name="T:CodingChallenge.Core.Common.Enum.StoryType">
+            <summary>
+            enum for story type
+            </summary>
+        </member>
+        <member name="F:CodingChallenge.Core.Common.Enum.StoryType.story">
+            <summary>
+            The ok
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Core.Services.StoriesServices.Interface.IStoriesService.GetTopAllStories(CodingChallenge.Core.Models.PagingParameters)">
+            <summary>
+            Get All Stories service
+            </summary>
+            <param name="pagingParameters">see cref="PagingParameters"</param>
+            <returns> StoriesDetailsDto </returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Services.StoriesServices.Interface.IStoriesService.GetSearchStories(System.String)">
+            <summary>
+            Get stories list that are mached by search title
+            </summary>
+            <param name="searchtext">searchStoryTitle</param>
+            <returns></returns>
+        </member>
+        <member name="F:CodingChallenge.Core.Services.ThirdPartyAPIService.ThirdPartyAPI._httpClient">
+            <summary>
+            http client
+            </summary>
+        </member>
+        <member name="F:CodingChallenge.Core.Services.ThirdPartyAPIService.ThirdPartyAPI._mapper">
+            <summary>
+            the mapper 
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Core.Services.ThirdPartyAPIService.ThirdPartyAPI.#ctor(System.Net.Http.HttpClient,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodingChallenge.Core.Services.ThirdPartyAPIService.ThirdPartyAPI"/> class.
+            </summary>
+            <param name="httpClient"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:CodingChallenge.Core.Services.ThirdPartyAPIService.ThirdPartyAPI.GetAllStoriesIds">
+            <summary>
+            Get all stories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Core.Services.ThirdPartyAPIService.ThirdPartyAPI.GetStorieDetail(System.Int32)">
+            <summary>
+            get story details
+            </summary>
+            <param name="StoryId">StoryId</param>
+            <returns></returns>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.Common.Error.UserMessage">
+            <summary>
+            Gets or sets the user message.
+            </summary>
+            <value>
+            The user message.
+            </value>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.Common.Error.ErrorCode">
+            <summary>
+            Gets or sets the error code.
+            </summary>
+            <value>
+            The error code.
+            </value>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.Common.Error.DevMessage">
+            <summary>
+            Gets or sets the dev message.
+            </summary>
+            <value>
+            The dev message.
+            </value>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.Common.Error.Path">
+            <summary>
+            Gets or sets the path.
+            </summary>
+            <value>
+            The path.
+            </value>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.Common.Error.RowNumber">
+            <summary>
+            The row number
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.Common.Error.Value">
+            <summary>
+            The value
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.Common.ErrorDetails.StatusCode">
+            <summary>
+            status code
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.Common.ErrorDetails.Message">
+            <summary>
+            messege 
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Core.Models.Common.ErrorDetails.ToString">
+            <summary>
+            override string 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.APIResponse`1.ApiResponseStatus">
+            <summary>
+            Gets or sets the status.
+            </summary>
+            <value>
+            The status.
+            </value>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.APIResponse`1.HttpStatus">
+            <summary>
+            Gets or sets the status.
+            </summary>
+            <value>
+            The status.
+            </value>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.APIResponse`1.Message">
+            <summary>
+            Gets or sets the message.
+            </summary>
+            <value>
+            The message.
+            </value>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.APIResponse`1.Data">
+            <summary>
+            Gets or sets the content.
+            </summary>
+            <value>
+            The content.
+            </value>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.APIResponse`1.Errors">
+            <summary>
+            Gets or sets the errors.
+            </summary>
+            <value>
+            The errors.
+            </value>
+        </member>
+        <member name="F:CodingChallenge.Core.Models.PagingParameters.maxPageSize">
+            <summary>
+            set max page size
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.PagingParameters.PageNumber">
+            <summary>
+            page number
+            </summary>
+        </member>
+        <member name="F:CodingChallenge.Core.Models.PagingParameters._pageSize">
+            <summary>
+            page size
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.PagingParameters.PageSize">
+            <summary>
+            set page size
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.StoriesDetailsDto.TotalRecords">
+            <summary>
+            total records
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.StoriesDetailsDto.Stories">
+            <summary>
+            story collection
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.StoryDetail.id">
+            <summary>
+            story id
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.StoryDetail.title">
+            <summary>
+            story title
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.StoryDetail.type">
+            <summary>
+            story type
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.StoryDetail.url">
+            <summary>
+            story url
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.StoryDetailDto.id">
+            <summary>
+            story id
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.StoryDetailDto.title">
+            <summary>
+            story title
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.StoryDetailDto.type">
+            <summary>
+            story type
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Core.Models.StoryDetailDto.url">
+            <summary>
+            story url
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Core.ThirdPartyAPIService.IThirdPartyAPI.GetAllStoriesIds">
+            <summary>
+            Get all stories ides
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CacheResultModel.CacheStatusOption">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CacheResultModel.CacheStatusOption.DoesNotExists">
+            <summary>
+            The does not exists
+            </summary>
+        </member>
+        <member name="F:CacheResultModel.CacheStatusOption.Exists">
+            <summary>
+            The exists
+            </summary>
+        </member>
+        <member name="F:CacheResultModel.CacheStatusOption.Error">
+            <summary>
+            The error
+            </summary>
+        </member>
+        <member name="M:CacheResultModel.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CacheResultModel"/> class.
+            </summary>
+            <param name="key">The key.</param>
+        </member>
+        <member name="P:CacheResultModel.CacheKey">
+            <summary>
+            Gets or sets the cache key.
+            </summary>
+            <value>
+            The cache key.
+            </value>
+        </member>
+        <member name="P:CacheResultModel.CacheValue">
+            <summary>
+            Gets or sets the cache value.
+            </summary>
+            <value>
+            The cache value.
+            </value>
+        </member>
+        <member name="P:CacheResultModel.CacheStatus">
+            <summary>
+            Gets or sets the cache status.
+            </summary>
+            <value>
+            The cache status.
+            </value>
+        </member>
+        <member name="P:CacheResultModel.Error">
+            <summary>
+            Gets or sets the error.
+            </summary>
+            <value>
+            The error.
+            </value>
+        </member>
+        <member name="T:StorCodingChallenge.Core.Services.StoriesServices.Service.StoriesService">
+            <summary>
+            add class contain get stories related data functions
+            </summary>
+        </member>
+        <member name="F:StorCodingChallenge.Core.Services.StoriesServices.Service.StoriesService._httpClient">
+            <summary>
+            The http client 
+            </summary>
+        </member>
+        <member name="F:StorCodingChallenge.Core.Services.StoriesServices.Service.StoriesService._cacheService">
+            <summary>
+            The caching service
+            </summary>
+        </member>
+        <member name="F:StorCodingChallenge.Core.Services.StoriesServices.Service.StoriesService._thirdPartyAPI">
+            <summary>
+            The third party api
+            </summary>
+        </member>
+        <member name="M:StorCodingChallenge.Core.Services.StoriesServices.Service.StoriesService.#ctor(CodingChallenge.Core.Builders.IResponseBuilderFactory,System.Net.Http.HttpClient,AutoMapper.IMapper,CodingChallenge.Core.Cache.ICacheService,CodingChallenge.Core.ThirdPartyAPIService.IThirdPartyAPI)">
+            <summary>
+            Initializes a new instance of the <see cref="T:StorCodingChallenge.Core.Services.StoriesServices.Service.StoriesService"/> class.
+            </summary>
+            <param name="responseBuilderFactory">responseBuilderFactory</param>
+            <param name="httpclient">httpclient</param>
+            <param name="mapper">mapper</param>
+            <param name="cachingService">cachingService</param>
+            <param name="thirdPartyAPI">thirdPartyAPI</param>
+        </member>
+        <member name="M:StorCodingChallenge.Core.Services.StoriesServices.Service.StoriesService.GetSearchStories(System.String)">
+            <summary>
+            Get stories list that are mached by search title
+            </summary>
+            <param name="searchStoryTitle">searchStoryTitle</param>
+            <returns></returns>
+        </member>
+        <member name="M:StorCodingChallenge.Core.Services.StoriesServices.Service.StoriesService.GetTopAllStories(CodingChallenge.Core.Models.PagingParameters)">
+            <summary>
+            Get All Stories service
+            </summary>
+            <param name="pagingParameters">see cref="PagingParameters"</param>
+            <returns> StoriesDetailsDto </returns>
+        </member>
+    </members>
+</doc>
