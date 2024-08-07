@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{34D4F03C-B31
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenge.Core", "CodingChallenge.Core\CodingChallenge.Core.csproj", "{794D33F9-37E2-4832-A2F0-EFC86344B878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge", "CodingChallenge\CodingChallenge.csproj", "{546B2978-2195-457D-970A-5292FCC1D60E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenge", "CodingChallenge\CodingChallenge.csproj", "{546B2978-2195-457D-970A-5292FCC1D60E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8191F703-5F41-4933-916A-A0A11D5C5B18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge.API.Tests", "CodingChallenge.API.Tests\CodingChallenge.API.Tests.csproj", "{1E1AD062-4017-4A7C-BD81-0C6E32EA2B10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenge.API.Tests", "CodingChallenge.API.Tests\CodingChallenge.API.Tests.csproj", "{1E1AD062-4017-4A7C-BD81-0C6E32EA2B10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChalleng.Core.Tests", "CodingChalleng.Core.Tests\CodingChalleng.Core.Tests.csproj", "{869576AD-3EB8-4AB4-86D5-F145D7F50FFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChalleng.Core.Tests", "CodingChalleng.Core.Tests\CodingChalleng.Core.Tests.csproj", "{869576AD-3EB8-4AB4-86D5-F145D7F50FFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using CodingChallenge.Core.Models;
 using System.Diagnostics.CodeAnalysis;
+using CodingChallenge.Core.Models;
 
 namespace CodingChallenge.Configurations
 {
