@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace CodingChallenge.Core.Common.Enum
 {
-    
     /// <summary>
     /// Response Status
     /// </summary>

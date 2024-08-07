@@ -1,15 +1,24 @@
-﻿using CodingChallenge.Core.Builders;
+﻿using System.Diagnostics.CodeAnalysis;
+using CodingChallenge.Core.Builders;
 using CodingChallenge.Core.Builders.Factory;
 using CodingChallenge.Core.Cache;
 using CodingChallenge.Core.Services.StoriesServices.Interface;
+using CodingChallenge.Core.Services.StoriesServices.Service;
 using CodingChallenge.Core.Services.ThirdPartyAPIService;
 using CodingChallenge.Core.ThirdPartyAPIService;
-using StorCodingChallenge.Core.Services.StoriesServices.Service;
 
 namespace CodingChallenge.Configurations
 {
+    [ExcludeFromCodeCoverage]
     public static class RegisterServices
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentNullException"></exception>
         public static IServiceCollection ServiceCollection(this IServiceCollection services, IConfiguration configuration)
         {
             if (services == null)

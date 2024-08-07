@@ -2,6 +2,9 @@ using CodingChallenge.Core.Models;
 
 namespace CodingChallenge.Core.Services.StoriesServices.Interface
 {
+    /// <summary>
+    /// IStoriesService Interface
+    /// </summary>
     public interface IStoriesService
   {
 
@@ -17,5 +20,5 @@ namespace CodingChallenge.Core.Services.StoriesServices.Interface
         /// <param name="searchtext">searchStoryTitle</param>
         /// <returns></returns>
         Task<APIResponse<StoriesDetailsDto>> GetSearchStories(String searchtext);
-  }
+    }
 }

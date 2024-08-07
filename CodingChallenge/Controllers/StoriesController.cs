@@ -1,16 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using CodingChallenge.Core.Models;
+﻿using CodingChallenge.Core.Models;
 using CodingChallenge.Core.Services.StoriesServices.Interface;
-using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CodingChallenge.Controllers
 {
+    /// <summary>
+    /// Api controller
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class StoriesController : ControllerBase
     {
         private readonly IStoriesService _storiesService;
-
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="storiesService"></param>
         public StoriesController(IStoriesService storiesService)
         {
             _storiesService = storiesService;

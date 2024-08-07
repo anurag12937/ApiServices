@@ -17,11 +17,9 @@ namespace CodingChallenge.Core.Builders
         /// </summary>
         public ResponseBuilder()
         {
-            _aPIResponse = new APIResponse<T>
-            {
-                Errors = new List<Error>(),
-                HttpStatus = StatusCodes.Status200OK
-            };
+            _aPIResponse = new APIResponse<T>();
+            _aPIResponse.Errors = new List<Error>();
+            _aPIResponse.HttpStatus = StatusCodes.Status200OK;
         }
 
         /// <summary>

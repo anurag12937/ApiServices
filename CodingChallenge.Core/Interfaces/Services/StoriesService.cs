@@ -7,7 +7,7 @@ using CodingChallenge.Core.ThirdPartyAPIService;
 using static CacheResultModel;
 using System.Diagnostics;
 
-namespace StorCodingChallenge.Core.Services.StoriesServices.Service
+namespace CodingChallenge.Core.Services.StoriesServices.Service
 {
     /// <summary>
     /// add class contain get stories related data functions
@@ -97,8 +97,11 @@ namespace StorCodingChallenge.Core.Services.StoriesServices.Service
                return responseBuilder.AddError(ex.Message).Build();
             }
         }
-
-        private async Task<IEnumerable<StoryDetailDto>> GetDataForStoriesDetails()
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public async Task<IEnumerable<StoryDetailDto>> GetDataForStoriesDetails()
         {
             List<StoryDetailDto> storiesDetailstList = new List<StoryDetailDto>();
             IEnumerable<StoryDetailDto> enumerableCollection = null;

@@ -4,15 +4,22 @@ using CodingChallenge.Core.Models;
 using CodingChallenge.Core.ThirdPartyAPIService;
 using FluentAssertions;
 using NSubstitute;
-using StorCodingChallenge.Core.Services.StoriesServices.Service;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using CodingChalleng.Core.Tests.Services;
+using CodingChallenge.Core.Services.StoriesServices.Service;
 
-namespace CodingChalleng.Core.Tests.Services
+namespace CodingChallenge.Core.Tests.Services
 {
-    public class StoriesService_Test
+    /// <summary>
+    /// 
+    /// </summary>
+    public class StoriesServiceTest
     {
-        public class TheGetALLStoriesList
+        /// <summary>
+        /// TheGetALLStoriesList
+        /// </summary>
+        public class xTheGetALLStoriesList
         {
             /// <summary>
             /// Should the return Get All Stories List as response from ThirdPartyAPI.

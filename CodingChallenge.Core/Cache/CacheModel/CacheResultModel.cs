@@ -1,15 +1,22 @@
-﻿using System.Diagnostics.CodeAnalysis;
-
-[ExcludeFromCodeCoverage]
-public class CacheResultModel
+﻿public class CacheResultModel
 {
     /// <summary>
     /// 
     /// </summary>
     public enum CacheStatusOption
     {
-       
+        /// <summary>
+        /// The result pending
+        /// </summary>
+        ResultPending,
+        /// <summary>
+        /// The chached
+        /// </summary>
         Cached,
+        /// <summary>
+        /// The deleted
+        /// </summary>
+        Deleted,
         /// <summary>
         /// The does not exists
         /// </summary>
@@ -21,8 +28,7 @@ public class CacheResultModel
         /// <summary>
         /// The error
         /// </summary>
-        Error,
-        ResultPending
+        Error
     }
 
     /// <summary>

@@ -7,10 +7,14 @@ using System.Threading.Tasks;
 
 namespace CodingChallenge.Core.Models
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     [ExcludeFromCodeCoverage]
     public class APIResponse<T>
   {
-        public bool IsSuccess;
+        public string ErrorMessage;
 
         /// <summary>
         /// Gets or sets the status.
@@ -51,5 +55,7 @@ namespace CodingChallenge.Core.Models
     /// The errors.
     /// </value>
     public List<Error> Errors { get; set; }
-  }
+    public bool IsSuccess { get; set; }
+    public object Success { get; set; }
+    }
 }

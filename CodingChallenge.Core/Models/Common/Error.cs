@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CodingChallenge.Core.Models.Common
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [ExcludeFromCodeCoverage]
+    
     public class Error
   {
     /// <summary>

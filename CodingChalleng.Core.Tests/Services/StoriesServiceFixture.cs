@@ -2,16 +2,12 @@
 using CodingChallenge.Core.Builders;
 using CodingChallenge.Core.Cache;
 using CodingChallenge.Core.Models;
+using CodingChallenge.Core.Services.StoriesServices.Service;
 using CodingChallenge.Core.ThirdPartyAPIService;
 using NSubstitute;
 using Rocket.Surgery.Extensions.Testing.Fixtures;
-using StorCodingChallenge.Core.Services.StoriesServices.Service;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodingChalleng.Core.Tests.Services
 {
